@@ -1,0 +1,9 @@
+1. Plant Disease Detection Dataset (Recommended)
+
+PlantVillage Dataset
+Contains about 54,000+ images, 38 classes, healthy and diseased leaves from multiple crops. Perfect for training MobileNetV2.
+
+https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset
+
+Alternative version:
+https://www.kaggle.com/datasets/mohitsingh1804/plantvillage
