@@ -47,29 +47,53 @@ AgriCrop/
 
 │
 ├── app.py
+
 ├── train_disease.py
+
 ├── predict.py
+
 ├── train_soil.py
+
 ├── database.py
+
 ├── requirements.txt
+
 ├── classes.json
+
 │
+
 ├── models/
+
 │   ├── disease_model.h5
+
 │   └── soil_model.pkl
+
 │
+
 ├── dataset/
+
 │   ├── PlantVillage Dataset/
+
 │   └── Plant_Parameters.csv
+
 │
+
 ├── static/
+
 │   ├── uploads/
+
 │   ├── css/
+
 │   └── js/
+
 │
+
 └── templates/
+
     ├── index.html
+    
     ├── result.html
+    
     └── dashboard.html
 ```
 
