@@ -1,0 +1,17 @@
+## Note
+After Training train_soil.py
+we'll get the 
+models/soil_model.pkl
+
+### Soil Moisture Prediction
+- Algorithm: Random Forest Regressor
+- Prediction Score (R²): 78.81%
+- Features Used:
+  - pH
+  - Soil EC
+  - Phosphorus
+  - Potassium
+  - Urea
+  - T.S.P
+  - M.O.P
+  - Temperature
