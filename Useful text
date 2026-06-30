@@ -1,0 +1,56 @@
+# Steps to do 
+
+Open VS Code Terminal
+Create Virtual Environment
+python -m venv venv
+
+Activate it.
+
+Windows
+venv\Scripts\activate
+
+You should see:
+
+(venv)
+
+----
+Install Packages
+
+Run:
+
+pip install tensorflow
+pip install numpy
+pip install pandas
+pip install matplotlib
+pip install scikit-learn
+pip install pillow
+pip install flask
+pip install joblib
+pip install pymongo
+
+Or:
+
+pip install tensorflow numpy pandas matplotlib scikit-learn pillow flask joblib pymongo
+
+-------
+# Execution Order Later
+Step 1
+pip install -r requirements.txt
+
+Step 2
+py train_disease.py
+
+Run:
+python predict.py
+
+Step 3
+py train_soil.py
+
+Step 4
+py app.py
+
+Open:
+http://127.0.0.1:5000
+
+Important: After train_disease.py finishes, we need to make one small modification to automatically generate classes.json. 
+Otherwise predict.py and app.py won't know the disease names. 
