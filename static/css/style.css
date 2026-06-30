@@ -1,0 +1,14 @@
+body{
+font-family:Arial;
+text-align:center;
+margin-top:80px;
+}
+
+button{
+padding:10px 20px;
+font-size:18px;
+}
+
+input{
+padding:10px;
+}
