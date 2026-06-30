@@ -1,0 +1,11 @@
+Leaf Image
+      ↓
+MobileNetV2 Model
+      ↓
+Disease Prediction
+      ↓
+MongoDB Storage
+      ↓
+Leaflet Dashboard
+      ↓
+Geospatial Visualization
