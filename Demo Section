@@ -1,0 +1,7 @@
+## Demo
+
+1. Upload a plant leaf image
+2. AI detects the disease
+3. Soil moisture prediction is generated
+4. Prediction history is stored in MongoDB
+5. Disease locations are displayed on an interactive map
