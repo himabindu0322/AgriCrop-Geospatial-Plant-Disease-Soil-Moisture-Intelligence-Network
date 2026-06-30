@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>Prediction</title>
+    <title>Prediction Result</title>
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 
 <body>
 
-<h1>Disease Prediction</h1>
+<div class="container">
 
-<img src="/{{ image }}"
-     width="300">
+    <h1>Disease Prediction Result</h1>
 
-<h2>{{ disease }}</h2>
+    <img src="/{{ image }}"
+         width="300">
 
-<a href="/">
-    Predict Again
-</a>
+    <h2>{{ disease.replace('___', ' - ') }}</h2>
+
+    <a href="/">
+        <button>Predict Again</button>
+    </a>
+
+</div>
 
 </body>
-
 </html>
